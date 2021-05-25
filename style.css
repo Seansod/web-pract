@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/cool-background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    height: 15vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 360px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000002;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #000002;
+}
+.content p{
+    font-size: 20px;
+    color: #000002;
+}
+
+.content{
+    margin-left: 10%;
+    margin-top:  10%;
+}
+
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #1e4373, #347a80);
+    border-radius: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+.self-img{
+    height: 80%;
+    position: absolute;
+    bottom: 20px;
+    right: 160px;
+    border-radius: 20px;
+}
+.social-links{
+    position: absolute;
+    bottom: 0px;
+    left: 160px;
+}
+.social-links .linkden{
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 9px;
+    color: #000002;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.social-links .github{
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0px;
+    left: 80px;
+    color: #000002;
+    padding-right: 20px;
+    font-size: 14px;
+}
