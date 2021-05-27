@@ -1,4 +1,3 @@
 # web-pract
-website practice
-Working on skills
-Testing git connection
+What: Web-deveolpment practice
+How: Converting resume content to a website
